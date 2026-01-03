@@ -252,4 +252,3 @@ MIT License
 ## Contributing
 
 Contributions welcome! Please see CONTRIBUTING.md for guidelines.
-
