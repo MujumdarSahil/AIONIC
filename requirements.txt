@@ -1,0 +1,33 @@
+# AIONIC Multi-Agent Intelligence Framework
+# Production-ready, research-publishable Agentic AI platform
+
+# Core Dependencies
+python-dotenv>=1.0.0  # Environment variable management for LLM config
+
+# LLM Provider Dependencies (Optional - install only what you need)
+openai>=1.0.0          # OpenAI API (GPT-3.5, GPT-4)
+anthropic>=0.18.0      # Anthropic Claude API
+google-generativeai>=0.3.0  # Google Gemini API
+groq>=0.4.0            # Groq API (fast inference)
+
+# Optional: Local Model Support
+# ollama>=0.1.0        # Uncomment if using local Ollama models
+# vllm>=0.2.0          # Uncomment if using vLLM for local inference
+
+# Development Dependencies (Optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
+
+# Note: The framework is designed to work with minimal dependencies.
+# Install only the provider packages you need for your use case.
+# 
+# Example installation:
+#   pip install -r requirements.txt
+# 
+# Or install specific providers:
+#   pip install openai anthropic  # For OpenAI and Claude only
+#   pip install google-generativeai groq  # For Gemini and Groq only
+
